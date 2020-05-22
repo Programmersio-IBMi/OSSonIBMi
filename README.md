@@ -1,4 +1,4 @@
-# OSSonIBMi
+# OSSonIBMi  :outbox_tray:
 Getting started with open source in IBMi 
 
 1. Login to your IBMi 
@@ -8,8 +8,8 @@ Getting started with open source in IBMi
   - `echo 'PATH=/QOpenSys/pkgs/bin:$PATH' >> $HOME/.profile && echo 'export PATH' >> $HOME/.profile`
 4. Restart your session.
 5. `CALL QP2TERM` 
-6. Run ` yum --version `. Boom yum is intalled.
-7. yum is the package manager for rpm. 
-8. `yum group install "Development tools"`
+6. Run ` yum --version `. :boom: Boom yum is intalled.
+7. yum is the package manager:dark_sunglasses: over rpm. 
+8. `yum group install "Development tools"` :arrow_down:
 
 > Reference link : https://bitbucket.org/ibmi/opensource/src/master/docs/yum/
