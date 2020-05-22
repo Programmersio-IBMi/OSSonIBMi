@@ -2,7 +2,7 @@
 Getting started with open source in IBMi 
 
 1. Login to your IBMi 
-2. Run sql script from (bootstrap.sql)[./bootstrap.sql]
+2. Run sql script from [bootstrap.sql](./bootstrap.sql)
 3. Add path permanently to user profile. 
   - `CALL QP2TERM `
   - `echo 'PATH=/QOpenSys/pkgs/bin:$PATH' >> $HOME/.profile && echo 'export PATH' >> $HOME/.profile`
