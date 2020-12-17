@@ -17,7 +17,6 @@ Getting started with open source in IBMi
 6. Run ` yum --version `. :boom: Boom yum is intalled.
 7. yum is the package manager:dark_sunglasses: over rpm. 
 8. `yum group install "Development tools"` :arrow_down:
-9. `echo 'PATH=/QOpenSys/pkgs/bin:$PATH' >> $HOME/.profile`
-   `echo 'export PATH' >> $HOME/.profile`
+
 
 > Reference link : [here](https://ibmi-oss-docs.readthedocs.io/en/latest/yum/README.html)
