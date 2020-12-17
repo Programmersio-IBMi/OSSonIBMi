@@ -20,4 +20,4 @@ Getting started with open source in IBMi
 9. `echo 'PATH=/QOpenSys/pkgs/bin:$PATH' >> $HOME/.profile`
    `echo 'export PATH' >> $HOME/.profile`
 
-> Reference link : https://bitbucket.org/ibmi/opensource/src/master/docs/yum/
+> Reference link : [here](https://ibmi-oss-docs.readthedocs.io/en/latest/yum/README.html)
