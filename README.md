@@ -7,6 +7,10 @@ Getting started with open source in IBMi
 3. Add path permanently to user profile. 
     - `CALL QP2TERM `
     - `echo 'PATH=/QOpenSys/pkgs/bin:$PATH' >> $HOME/.profile && echo 'export PATH' >> $HOME/.profile`
+    - There should be directory in /home/ same as your user name e.g. home/USERNAME. If not already there 
+      you can create one by doing ` mkdir USERNAME && touch USERNAME/.profile` then do 
+      `echo 'PATH=/QOpenSys/pkgs/bin:$PATH' >> $HOME/.profile && echo 'export PATH' >> $HOME/.profile`
+   
 4. Restart your session.
 
 5. `CALL QP2TERM` 
