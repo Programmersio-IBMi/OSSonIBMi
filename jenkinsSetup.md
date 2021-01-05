@@ -1,5 +1,5 @@
 
-// Configration to run Jenkins file without any conversion issues. 
+### Configration to run Jenkins file without any conversion issues. 
 
 export PATH=/QOpenSys/pkgs/bin:/home/GAJENDER/.ssh:$PATH;
 export TERM=xterm;
@@ -8,12 +8,12 @@ export SHLVL=1;
 cd /var/jenkins;
 java -jar jenkins.war --httpPort=6123
 
-// Converion issue can be avoided using the following update 
+### Converion issue can be avoided using the following update 
 
 the JV1 version of Java sometimes seems to do some errant ASCII->EBCDIC conversions when it shouldn't. 
 For running Jenkins, I'd recommend using the OpenJDK 11 rpm: https://ibmi-oss-docs.readthedocs.io/en/latest/java11/JAVA11_EARLY_ACCESS.html
 
-// in jenkins Console following commands can be used to automate the makefile with spool conversion 
+### in jenkins Console following commands can be used to automate the makefile with spool conversion 
 
 #!/QOpenSys/usr/bin/qsh
 
