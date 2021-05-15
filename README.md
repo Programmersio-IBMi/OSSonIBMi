@@ -19,4 +19,4 @@ Getting started with open source in IBMi
 8. `yum group install "Development tools"` :arrow_down:
 
 
-> Reference link : [here](https://ibmi-oss-docs.readthedocs.io/en/latest/yum/README.html)
+> Reference link : [here](https://ibmi-oss-docs.readthedocs.io/en/latest/yum/README.html#installation)
