@@ -20,3 +20,5 @@ Getting started with open source in IBMi
 
 
 > Reference link : [here](https://ibmi-oss-docs.readthedocs.io/en/latest/yum/README.html#installation)
+
+> YUM cheat sheet [here](https://access.redhat.com/sites/default/files/attachments/rh_yum_cheatsheet_1214_jcs_print-1.pdf)
